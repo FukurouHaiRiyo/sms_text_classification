@@ -7,5 +7,5 @@ For this challenge, you will use the SMS Spam Collection dataset. The dataset ha
 
 The first two cells import the libraries and data. The final cell tests your model and function. Add your code in between these cells.
 
-Dataset:  https://cdn.freecodecamp.org/project-data/sms/train-data.tsv\n
-          https://cdn.freecodecamp.org/project-data/sms/valid-data.tsv
+Dataset:  Train: https://cdn.freecodecamp.org/project-data/sms/train-data.tsv
+          Validation: https://cdn.freecodecamp.org/project-data/sms/valid-data.tsv
