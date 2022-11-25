@@ -6,8 +6,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-train_file_path = '/home/andrei/Desktop/MachineLearningCourse/sms_text_classification/train-data.tsv'
-test_file_path  = '/home/andrei/Desktop/MachineLearningCourse/sms_text_classification/valid-data.tsv'
+train_file_path = 'path to train file'
+test_file_path  = 'path to test file'
 
 df_train = pd.read_table(train_file_path, header = 0, names=['indicates', 'text'], usecols=['indicates', 'text'])
 df_test = pd.read_table(test_file_path, header = 0, names=['indicates', 'text'], usecols=['indicates', 'text'])
